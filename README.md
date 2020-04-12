@@ -13,8 +13,8 @@ It consists of a Python script that takes in raw input about usage of a bikeshar
 Dataset files are not provided in this GitHub :octocat: project.
 
 ### Credits
+Python script created by Rodrigo Cavalcanti :raising_hand: (:e-mail: rcbcavalcanti@gmail.com), based on a template provided by Udacity.
+
 Datasets files are based on original data provided by [Motivate](https://www.motivateco.com) a american bikeshare services provider present in many major cities in the US.
 
 Data wrangling has been performed over the original datasets by [Udacity](http://udacity.com/) to be used in it's Introduction to Python course.
-
-Python script was created based on a template provided by Udacity.
