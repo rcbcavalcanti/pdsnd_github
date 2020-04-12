@@ -48,7 +48,8 @@ def select_city():
             # ...checks if the number exists in the city list
             if CITY_DATA.get(city_number) != None:
                 break  # if number exists, breaks the while loop
-            print('\n \'{}\' is not a valid city number \n'.format(city_number))
+            print('\n \'{}\' is not a valid city number \n'
+                  .format(city_number))
 
     # Print the selected city to the user and returns the city data file name
     selected_city = "\n...[{} selected]...\n".format(CITY_DATA[city_number][0])
@@ -93,7 +94,8 @@ def select_date(skip_question_01=False):
                          "    Type '6' to: June\n \n"
 
     prompt_question_03 = "\n" \
-                         " Would you like to filter data by a day of the week? \n" \
+                         " Would you like to filter data by a"\
+                         "day of the week? \n" \
                          " Enter the corresponding number: \n" \
                          "\n" \
                          "    Type '0' to: All (no filter) \n" \
@@ -124,7 +126,7 @@ def select_date(skip_question_01=False):
 
             # if the input is 'yes', continues def
             elif filter_data in ['y', 'yes']:
-                filter_selected = True  # indicates that user chose to filter data
+                filter_selected = True  # indicates user chose to filter data
                 break
 
             else:  # if the input was not a 'yes' or 'no' answer, warns user
@@ -148,7 +150,7 @@ def select_date(skip_question_01=False):
             # ...checks if the number exists in the month list
             if MONTH_LIST.get(month_number) != None:
                 break  # if number exists, breaks the while loop
-            print('\n \'{}\' is not a valid month number \n' \
+            print('\n \'{}\' is not a valid month number \n'
                   .format(month_number))
 
     # Print the selected month to the user and returns the month number
@@ -275,8 +277,8 @@ def raw_data(df):
                 break
 
             else:  # if the input was not a 'yes' or 'no' answer, warns user
-                print("\n Please type 'y' or hit ENTER if you want to show " \
-                      "the next {} rows \n or type 'n' to stop. \n" \
+                print("\n Please type 'y' or hit ENTER if you want to show "
+                      "the next {} rows \n or type 'n' to stop. \n"
                       .format(rows_per_time))
 
 
