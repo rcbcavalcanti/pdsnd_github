@@ -46,7 +46,7 @@ def select_city():
         # if the input is an integer...
         else:
             # ...checks if the number exists in the city list
-            if CITY_DATA.get(city_number) != None:
+            if CITY_DATA.get(city_number) is not None:
                 break  # if number exists, breaks the while loop
             print('\n \'{}\' is not a valid city number \n'
                   .format(city_number))
@@ -148,7 +148,7 @@ def select_date(skip_question_01=False):
         # if the input is an integer...
         else:
             # ...checks if the number exists in the month list
-            if MONTH_LIST.get(month_number) != None:
+            if MONTH_LIST.get(month_number) is not None:
                 break  # if number exists, breaks the while loop
             print('\n \'{}\' is not a valid month number \n'
                   .format(month_number))
@@ -172,7 +172,7 @@ def select_date(skip_question_01=False):
         # if the input is an integer...
         else:
             # ...checks if the number exists in the days list
-            if DAY_LIST.get(day_number) != None:
+            if DAY_LIST.get(day_number) is not None:
                 break  # if number exists, breaks the while loop
             print('\n \'{}\' is not a valid day number \n'.format(day_number))
 
@@ -271,7 +271,7 @@ def raw_data(df):
                 break
 
             # if the input is 'yes', continues def
-            elif show_more in ['y', 'yes', '']:  
+            elif show_more in ['y', 'yes', '']:
                 proceed = True  # indicates that user chose to continue
                 start_row += rows_per_time
                 break
