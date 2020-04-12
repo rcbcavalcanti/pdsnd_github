@@ -1,6 +1,7 @@
 import datetime
 import pandas as pd
 
+# Creates dictionaries that are used over various functions
 CITY_DATA = {1: ['Chicago', 'chicago.csv'],
              2: ['New York City', 'new_york_city.csv'],
              3: ['Washington, DC', 'washington.csv']}
