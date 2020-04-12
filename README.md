@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+April, 12, 2020
 
 ### Project Title
-Replace the Project Title
+Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project consists of a Python script that takes in raw input about usage of a bikeshare service, process the datasets and output descriptive statistics accordingly to user's input.
 
 ### Files used
-Include the files used
+Dataset files are not provided in this GitHub project. 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Datasets files are based on original data provided by Motivate (https://www.motivateco.com) a american bikeshare services provider present in many major cities in the US.
 
+Data wrangling has been performed over the original datasets by Udacity (http://udacity.com/) to be used in it's Introduction to Python course.
